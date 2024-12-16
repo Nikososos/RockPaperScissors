@@ -12,13 +12,12 @@ function getComputerChoice() {
 
 getComputerChoice()
 
-let humanChoice = prompt("rock, paper or scissors?");
 
 function getHumanChoice() {
-        if (humanChoice != "rock" || "paper" || "scissors") {
-            return "Please enter a valid choice";
-        }
+    let humanChoice = prompt("rock, paper or scissors?")
+
 }
 
 getHumanChoice()
-console.log(getHumanChoice())
+
+
